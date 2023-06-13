@@ -1,0 +1,113 @@
+@font-face {
+  font-family: 'Gilroy-Bold';
+  src: url(./font2/Gilroy-Bold.woff2);
+}
+
+@font-face {
+  font-family: 'Gilroy-Medium';
+  src: url(./font2/Gilroy-Medium.woff2);
+}
+
+@font-face {
+  font-family: 'Gilroy-Semibold';
+  src: url(./font2/Gilroy-Semibold.woff2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  /* Управляет поведением прокрутки внутри блока. Значение smooth делает её плавной. */
+  font-family: Gilroy-Bold;
+
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  /* Чтобы не оборачивать в дополнительный div */
+}
+
+/* ↑ База для обнуления стилей ↑ */
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+header {
+  padding: 40px 0;
+  margin-bottom: 44px;
+}
+
+.navigation {
+  width: 533px;
+}
+
+.navigation__link {
+  font-family: 'Gilroy-Semibold';
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+}
+
+.activ {
+  color: #F25822;
+}
+
+main {
+  margin-bottom: 162px;
+}
+
+.content__wrapper {}
+
+.content-block {}
+
+.content__mainTitle {
+  font-family: 'Gilroy-Bold';
+  font-size: 60px;
+  line-height: 70px;
+  color: #000000;
+  margin-bottom: 17px;
+}
+
+.content__description {
+  font-family: 'Gilroy-Medium';
+  font-size: 20px;
+  line-height: 23px;
+  color: #888888;
+  margin-bottom: 37px;
+}
+
+.content__btns {}
+
+.text__parameter {
+  font-size: 15px;
+  line-height: 18px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  /* Свойство cursor используется для установления формы курсора мыши, когда указатель мыши находится в пределах элемента. */
+}
+
+.content__btns__button_oval {
+  background: #F25822;
+  box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+  border-radius: 50px;
+  color: #FFFFFF;
+  padding: 15px 35px;
+}
+
+.content__btns__button {
+  color: #AAAAAA;
+  background: #FFFFFF;
+}
+
+footer {
+  padding: 97px 0;
+}
