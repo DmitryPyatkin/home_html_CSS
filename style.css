@@ -122,6 +122,7 @@ main {
   line-height: 18px;
   border: none;
   outline: none;
+  font-family: 'Gilroy-Bold';
   cursor: pointer;
   /* Свойство cursor используется для установления формы курсора мыши, когда указатель мыши находится в пределах элемента. */
 }
@@ -148,4 +149,23 @@ footer {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+}
+
+@media (max-width: 1024px) {
+
+  /* Стили для планшета */
+
+  .container {
+    padding-left: calc(50% - 512px);
+    padding-right: calc(50% - 512px);
+  }
+
+
+
+}
+
+@media (max-width: 767px) {
+
+  /* Стили для телефона */
+
 }
