@@ -1,0 +1,157 @@
+@font-face {
+  font-family: 'Gilroy-Bold';
+  src: url(./font2/Gilroy-Bold.woff2);
+}
+
+@font-face {
+  font-family: Gilroy-Regular;
+  src: url(./font2/Gilroy-Regular.woff2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  /* Управляет поведением прокрутки внутри блока. Значение smooth делает её плавной. */
+}
+
+.container {
+  padding-left: calc(50% - 585px);
+  padding-right: calc(50% - 585px);
+}
+
+.wrapper__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px 0 100px;
+}
+
+.card_idea {
+  padding: 40px 30px 25px 30px;
+}
+
+.card_idea2 {
+  background: #FFF;
+  box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.img__card_idea {
+  margin-bottom: 25px;
+}
+
+.title__card_idea {
+  margin-bottom: 17px;
+}
+
+.title__common {
+  font-size: 24px;
+  font-family: 'Gilroy-Bold';
+}
+
+.card_idea_text {
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.card__common_text {
+  display: flex;
+  width: 310px;
+  flex-direction: column;
+  font-size: 15px;
+  font-family: 'Gilroy-Regular';
+  line-height: 150%;
+  flex-shrink: 0;
+}
+
+.card_idea_mini {
+  font-size: 11px;
+  font-family: 'Gilroy-Bold';
+  line-height: 150%;
+}
+
+.wrap__cards {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background: #FAFAFA;
+  padding: 92px 0 100px;
+}
+
+.card__heading_max {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  gap: 19px;
+  margin-bottom: 50px;
+}
+
+.card__heading {
+  font-size: 45px;
+  font-family: 'Gilroy-Bold';
+}
+
+.card__subtitle_text {
+  color: #666;
+  font-size: 16px;
+  text-align: center;
+  width: 682px;
+}
+
+.card__inner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card_optimal {
+  display: grid;
+  justify-items: center;
+  grid-row-gap: 1em;
+  gap: 22px;
+  background: #FFF;
+  height: 549px;
+}
+
+.card_optimal_2 {
+  box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10);
+}
+
+.img__card_optimal {
+  margin-bottom: 12px;
+}
+
+.title__card_optimal {
+  text-align: center;
+}
+
+.card_optimal_text {
+  height: 63px;
+  color: #AAA;
+  text-align: center;
+  margin-bottom: 17px;
+}
+
+.card_optimal_button {
+  padding: 15px 26px 15px 46px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  border-radius: 50px;
+  background: #F25822;
+  box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+  border: none;
+  outline: none;
+  font-family: 'Gilroy-Bold';
+  cursor: pointer;
+  color: #FFF;
+  margin-bottom: 50px;
+}
